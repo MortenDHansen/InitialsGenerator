@@ -1,0 +1,19 @@
+{
+    "name": "mortendhansen/initials-generator",
+    "description": "Generates initial suggestion from names",
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "authors": [
+        {
+            "name": "Morten D. Hansen",
+            "email": "morten@visia.dk"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "InitialsGenerator\\": "src"
+        }
+    },
+    "require": {}
+}
