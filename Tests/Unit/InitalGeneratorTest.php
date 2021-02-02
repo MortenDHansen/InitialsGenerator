@@ -28,10 +28,6 @@ class InitalGeneratorTest extends TestCase
         $this->assertEquals(3, count($generator->nameParts));
     }
 
-    public function runAllNamesInList()
-    {
-
-    }
 
     /**
      * @test
