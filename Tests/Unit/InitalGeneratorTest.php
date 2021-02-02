@@ -24,7 +24,7 @@ class InitalGeneratorTest extends TestCase
     public function canSeparateNameParts()
     {
         $generator = new Generator();
-        $generator->extractNameParts('Bruno Seirup-Thinnesen');
+        $generator->extractNameParts('Peter Pingo-Pan');
         $this->assertEquals(3, count($generator->nameParts));
     }
 
@@ -56,7 +56,7 @@ class InitalGeneratorTest extends TestCase
         $this->assertTrue(strlen($initials) == 3);
         $this->assertEquals('ppa', $initials);
 
-        $initials = $generator->generate('Bruno Seirup-Thinnesen');
+        $initials = $generator->generate('Brian Sennep-Tomato');
         $this->assertTrue(strlen($initials) == 3);
         $this->assertEquals('bst', $initials);
     }
